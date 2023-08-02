@@ -1,5 +1,3 @@
 {
-	"plugins": ["."],
-	"port": 8181,
-	"testsPort": 8189
+	"plugins": ["."]
 }
