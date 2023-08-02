@@ -1,0 +1,14 @@
+{
+  "name": "wp-playwright-request-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.36.2",
+    "@wordpress/e2e-test-utils-playwright": "^0.6.0"
+  }
+}
