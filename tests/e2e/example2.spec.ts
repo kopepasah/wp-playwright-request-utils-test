@@ -8,7 +8,7 @@ import { test } from '@playwright/test';
  */
 import { RequestUtils } from '@wordpress/e2e-test-utils-playwright';
 
-test( 'test get post from RequestUtils on custom port', async ( { page } ) => {
+test( 'test get post from RequestUtils multiple requests 2', async ( { page } ) => {
 	const requestUtils = await RequestUtils.setup( {
 		user: {
 			username: 'admin',
@@ -26,3 +26,4 @@ test( 'test get post from RequestUtils on custom port', async ( { page } ) => {
 
 	console.log( posts );
 } );
+
